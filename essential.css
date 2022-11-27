@@ -1,0 +1,137 @@
+/*Importing of font in Here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*Reseting the default property*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    text-decoration: none;
+}
+
+/*Adding more property for body*/
+body{
+    overflow-y: scroll;
+}
+
+/*Adding property for anchor tag*/
+a{
+    text-decoration: none;
+}
+
+:root {
+    --c-d: hsl(0, 0%, 0%);
+    --c-d-h: 0;
+    --c-d-s: 0;
+    --c-d-0: hsl(var(--c-d-h), var(--c-d-s)%, 0%);
+    --c-d-1: hsl(var(--c-d-h), var(--c-d-s)%, 1%);
+    --c-d-3: hsl(var(--c-d-h), var(--c-d-s)%, 3%);
+    --c-d-5: hsl(var(--c-d-h), var(--c-d-s)%, 5%);
+    --c-d-10: hsl(var(--c-d-h), var(--c-d-s)%, 10%);
+    --c-d-20: hsl(var(--c-d-h), var(--c-d-s)%, 20%);
+    --c-d-30: hsl(var(--c-d-h), var(--c-d-s)%, 30%);
+    --c-d-40: hsl(var(--c-d-h), var(--c-d-s)%, 40%);
+    --c-d-50: hsl(var(--c-d-h), var(--c-d-s)%, 50%);
+    --c-d-60: hsl(var(--c-d-h), var(--c-d-s)%, 60%);
+    --c-d-70: hsl(var(--c-d-h), var(--c-d-s)%, 70%);
+    --c-d-80: hsl(var(--c-d-h), var(--c-d-s)%, 80%);
+    --c-d-90: hsl(var(--c-d-h), var(--c-d-s)%, 90%);
+    --c-d-95: hsl(var(--c-d-h), var(--c-d-s)%, 95%);
+    --c-d-97: hsl(var(--c-d-h), var(--c-d-s)%, 97%);
+    --c-d-99: hsl(var(--c-d-h), var(--c-d-s)%, 99%);
+    --c-d-100: hsl(var(--c-d-h), var(--c-d-s)%, 100%);
+}
+
+:root {
+    --c-s-success-0: hsl(120, 40%, 0%);
+    --c-s-success-10: hsl(120, 40%, 10%);
+    --c-s-success-40: hsl(120, 40%, 40%);
+    --c-s-success-50: hsl(120, 40%, 50%);
+    --c-s-success-60: hsl(120, 40%, 60%);
+    --c-s-success-90: hsl(120, 40%, 90%);
+    --c-s-success-100: hsl(120, 40%, 100%);
+    --c-s-warning-0: hsl(20, 90%, 0%);
+    --c-s-warning-10: hsl(20, 90%, 10%);
+    --c-s-warning-40: hsl(20, 90%, 40%);
+    --c-s-warning-50: hsl(20, 90%, 50%);
+    --c-s-warning-60: hsl(20, 90%, 60%);
+    --c-s-warning-90: hsl(20, 90%, 90%);
+    --c-s-warning-100: hsl(20, 90%, 100%);
+    --c-s-failure-0: hsl(0, 80%, 0%);
+    --c-s-failure-10: hsl(0, 80%, 10%);
+    --c-s-failure-40: hsl(0, 80%, 40%);
+    --c-s-failure-50: hsl(0, 80%, 50%);
+    --c-s-failure-60: hsl(0, 80%, 60%);
+    --c-s-failure-90: hsl(0, 80%, 90%);
+    --c-s-failure-100: hsl(0, 80%, 100%);
+    --c-n-transparent: transparent;
+}
+
+@media screen and (prefers-color-scheme: light) {
+    :root {
+        --c-d-fill: var(--c-d-40);
+        --c-d-on-fill: var(--c-d-90);
+        --c-d-tint: var(--c-d-90);
+        --c-d-on-tint: var(--c-d-10);
+        --c-d-surface: var(--c-d-100);
+        --c-d-on-surface: var(--c-d-0);
+        --c-d-surface-1: var(--c-d-99);
+        --c-d-on-surface-1: var(--c-d-1);
+        --c-d-surface-2: var(--c-d-97);
+        --c-d-on-surface-2: var(--c-d-3);
+        --c-d-surface-3: var(--c-d-95);
+        --c-d-on-surface-3: var(--c-d-5);
+        --c-d-surface-in: var(--c-d-0);
+        --c-d-on-surface-in: var(--c-d-100);
+        --c-d-outline: var(--c-d-70);
+        --c-d-divider: var(--c-d-80);
+        --c-d-shadow: var(--c-d-90);
+        --c-s-success: var(--c-s-success-40);
+        --c-s-on-success: var(--c-s-success-100);
+        --c-s-success-tint: var(--c-s-success-90);
+        --c-s-on-success-tint: var(--c-s-success-10);
+        --c-s-warning: var(--c-s-warning-40);
+        --c-s-on-warning: var(--c-s-warning-100);
+        --c-s-warning-tint: var(--c-s-warning-90);
+        --c-s-on-warning-tint: var(--c-s-warning-10);
+        --c-s-failure: var(--c-s-failure-40);
+        --c-s-on-failure: var(--c-s-failure-100);
+        --c-s-failure-tint: var(--c-s-failure-90);
+        --c-s-on-failure-tint: var(--c-s-failure-10)
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --c-d-fill: var(--c-d-60);
+        --c-d-on-fill: var(--c-d-10);
+        --c-d-tint: var(--c-d-10);
+        --c-d-on-tint: var(--c-d-90);
+        --c-d-surface: var(--c-d-0);
+        --c-d-on-surface: var(--c-d-100);
+        --c-d-surface-1: var(--c-d-1);
+        --c-d-on-surface-1: var(--c-d-99);
+        --c-d-surface-2: var(--c-d-3);
+        --c-d-on-surface-2: var(--c-d-97);
+        --c-d-surface-3: var(--c-d-5);
+        --c-d-on-surface-3: var(--c-d-95);
+        --c-d-surface-in: var(--c-d-100);
+        --c-d-on-surface-in: var(--c-d-0);
+        --c-d-outline: var(--c-d-30);
+        --c-d-divider: var(--c-d-20);
+        --c-d-shadow: var(--c-d-10);
+        --c-s-success: var(--c-s-success-60);
+        --c-s-on-success: var(--c-s-success-0);
+        --c-s-success-tint: var(--c-s-success-10);
+        --c-s-on-success-tint: var(--c-s-success-90);
+        --c-s-warning: var(--c-s-warning-60);
+        --c-s-on-warning: var(--c-s-warning-0);
+        --c-s-warning-tint: var(--c-s-warning-10);
+        --c-s-on-warning-tint: var(--c-s-warning-90);
+        --c-s-failure: var(--c-s-failure-60);
+        --c-s-on-failure: var(--c-s-failure-0);
+        --c-s-failure-tint: var(--c-s-failure-10);
+        --c-s-on-failure-tint: var(--c-s-failure-90)
+    }
+}
