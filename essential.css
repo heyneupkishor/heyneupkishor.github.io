@@ -20,6 +20,21 @@ a{
     text-decoration: none;
 }
 
+/*Adding the container class to make margin and max-width*/
+@media all and (min-width:1240px){
+    .container{
+        max-width: 1208px;
+        margin: auto;
+    }
+}
+@media all and (max-width: 1239.999px) {
+    .container{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+
 :root {
     --c-d: hsl(0, 0%, 0%);
     --c-d-h: 0;
